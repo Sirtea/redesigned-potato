@@ -14,7 +14,7 @@ class InfoResource:
     def on_get(self, req: falcon.Request, resp: falcon.Response) -> None:
         resp.media = {
             'database_settings': database_settings,
-            'version': '1.1.0'
+            'version': '2.0.0'
         }
 
 
